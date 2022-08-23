@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    background-color: wheat;
+    width: 550px;
+    margin: 12px;
+}
+.show_data{
+    margin: 5px;
+    background-color: rgb(236, 131, 131);
+}
+.each_data{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.each_data div {
+  padding: 10px;
+}
+button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.fa-solid:hover{
+   color: red;
+   cursor: pointer;
+}
+i{
+   font-size: 20px;
+}
+input{
+  height: 50px;
+}
