@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 const Todo = () => {
     const getItem=()=>{
         const data = localStorage.getItem('item');
-        console.log(data)
         if(data)
           return  JSON.parse(localStorage.getItem('item'))
         return [];
